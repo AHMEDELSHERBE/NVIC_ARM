@@ -41,7 +41,7 @@ void EXTI0_IRQHandler(void)	{
 		delay(5000);
 }
 void EXTI1_IRQHandler(void)	{
-    MGPIO_voidSetPinValue(PORTA,2,1);
+    MGPIO_voidSetPinValue(PORTA,3,1);
 		delay(5000);
 }
 
